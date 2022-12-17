@@ -27,3 +27,9 @@ button {
     padding: .5em;
     font-size: 1rem;
 }
+
+.head {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 80vw;
+}
