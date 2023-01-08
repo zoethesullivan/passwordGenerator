@@ -3,9 +3,18 @@ const characters = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O"
 
 let passwordOne = document.getElementById('password-one')
 let passwordTwo = document.getElementById('password-two')
+let renderPassword = 1
 
+function getPassword() {
+  let randomNumber = Math.floor(Math.random() * characters.length) + 1 ;
+  if (renderPassword.length < 16) {
+    renderPassword.textContent += characters[randomNumber]
+  }
+}
+// function renderPassword() {
+  
 function generatePassword() {
-  passwordOne.textContent = "test"
+  passwordOne.textContent = getPassword()
   passwordTwo.textContent = "testing"
 }
 //  for (let i = 0; i < cards.length; i++) { //cards is the array
