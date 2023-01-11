@@ -7,8 +7,9 @@ let generatePasswordBtn = document.getElementById('generate-passwords')
 let passwordOneEl = document.getElementById('password-one')
 let passwordTwoEl = document.getElementById('password-two')
 
-passwordFunction(){
-  console.log('hi')
-}
 
-generatePasswordBtn.addEventListener('click', passwordFunction())
+generatePasswordBtn.addEventListener("click", function passwordFunction() {
+  passwordOneEl.textContent = "hi"
+  passwordTwoEl.textContent = "hi"
+})
+//generatePasswordBtn.addEventListener('click', passwordFunction())
