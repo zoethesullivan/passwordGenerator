@@ -6,10 +6,13 @@ let randomNumber = Math.floor(Math.random() * characters.length) + 1 ;
 let generatePasswordBtn = document.getElementById('generate-passwords')
 let passwordOneEl = document.getElementById('password-one')
 let passwordTwoEl = document.getElementById('password-two')
-
+let count = 0
 
 generatePasswordBtn.addEventListener("click", function passwordFunction() {
-  passwordOneEl.textContent = "hi"
-  passwordTwoEl.textContent = "hi"
+  for (i=0; i < 17; i++) {
+    console.log(0)
+  passwordOneEl.textContent = "lorem"
+}
+  passwordTwoEl.textContent = "ipsum"
 })
 //generatePasswordBtn.addEventListener('click', passwordFunction())
