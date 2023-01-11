@@ -8,12 +8,12 @@ let passwordOneEl = document.getElementById('password-one')
 let passwordTwoEl = document.getElementById('password-two')
 let count = 0
 
+
 generatePasswordBtn.addEventListener("click", function passwordFunction() {
   for (i=0; i < 17; i++) {
     let randomNumber = Math.floor(Math.random() * characters.length) + 1 ;
-    console.log(characters[randomNumber])
-  passwordOneEl.textContent = "lorem"
-}
+    let randomPasswordCharacter = characters[randomNumber]
+    passwordOneEl.textContent = randomPasswordCharacter
+  }
   passwordTwoEl.textContent = "ipsum"
 })
-//generatePasswordBtn.addEventListener('click', passwordFunction())
