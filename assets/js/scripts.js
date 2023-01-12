@@ -16,4 +16,7 @@ function generatePassword() {
   return password
 }
 
-generatePasswordBtn.addEventListener('click', function(){ alert(generatePassword())})
+generatePasswordBtn.addEventListener('click', function(){ 
+  passwordOneEl.textContent = generatePassword()
+  passwordTwoEl.textContent = generatePassword()
+})
