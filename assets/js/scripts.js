@@ -4,17 +4,15 @@ const characters = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O"
 let generatePasswordBtn = document.getElementById('generate-passwords')
 let passwordOneEl = document.getElementById('password-one')
 let passwordTwoEl = document.getElementById('password-two')
-let count = 4
+let passwordLength = 4
 
 
-function generateRandomPasswordCh(){
-  let randomNumber = Math.floor(Math.random() * characters.length) + 1;
-  let randomPasswordCharacter = characters[randomNumber]
-  return randomPasswordCharacter  
-}
-
-function generateRandomPasswordLength(count) {
-  for(i = 0 ; i < count ; i++){
-  passwordOneEl.textContent = generateRandomPasswordCh()
+function generatePassword() {
+  let password = ""
+  for (let i =0; i < passwordLength; i++) {
+    let randomNumber = Math.floor(Math.random() * characters.length)
+    password += characters[randomNumber]
   }
+  return password
 }
+console.log(generatePassword())
