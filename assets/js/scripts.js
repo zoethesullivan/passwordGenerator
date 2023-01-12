@@ -15,4 +15,5 @@ function generatePassword() {
   }
   return password
 }
-console.log(generatePassword())
+
+generatePasswordBtn.addEventListener('click', function(){ alert(generatePassword())})

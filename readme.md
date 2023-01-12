@@ -42,3 +42,7 @@ git clone https://github.com/zoethesullivan/passwordgenerator
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
 
 *Application created as part of the JavaScript class in association with [Scrimba](https://scrimba.com/)
+
+## Things I've learned
+
+- start the js first
