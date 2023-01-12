@@ -3,20 +3,14 @@
 *::after {
     box-sizing: border-box;
     max-width: 100%;
-    font-family: 'Karla', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-h1 {
-    color: #4ADF86;
-}
-
-h1 strong {
-    color: #ffffff;
+    font-family: 'inter', 'Karla', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body {
     background-color: #1f2937;
-    color:rgb(225, 236, 250)
+    color: #d5d4d8;
+    max-width: 80vw;
+    margin: auto;
 }
 
 button { 
@@ -28,8 +22,32 @@ button {
     font-size: 1rem;
 }
 
-.head {
+hr {
+    background-color: #57625c;
+    color:#1f2937;
+    border-style: solid;
+    border-width: .1em;
+}
+#header-line-two {
+    color: #4ADF86;
+}
+
+.section {
     margin-right: auto;
     margin-left: auto;
-    max-width: 80vw;
+    width: 20em;
+}
+
+
+.password-field {
+    display: inline-block;
+    background-color: #273549;
+    color: #55f991;
+    border-radius: .25em;
+    text-align: center;
+    padding: .25em;
+    margin: auto;
+    width: 8em;
+    margin-right: auto;
+    margin-left: auto;
 }
