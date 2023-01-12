@@ -4,7 +4,7 @@ const characters = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O"
 let generatePasswordBtn = document.getElementById('generate-passwords')
 let passwordOneEl = document.getElementById('password-one')
 let passwordTwoEl = document.getElementById('password-two')
-let passwordLength = 4
+let passwordLength = 16
 
 
 function generatePassword() {
