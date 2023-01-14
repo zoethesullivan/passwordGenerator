@@ -9,6 +9,9 @@
 body {
     background-color: #1f2937;
     color: #d5d4d8;
+}
+.wrapper {
+    min-width: fit-content;
     max-width: 80vw;
     margin: auto;
 }
@@ -39,8 +42,8 @@ hr {
     border-radius: .25em;
     text-align: center;
     padding: .25em;
-    margin: auto;
-    width: 8em;
-    margin-right: auto;
-    margin-left: auto;
+    min-width: 9em;
+    width: fit-content;
+    
+
 }
