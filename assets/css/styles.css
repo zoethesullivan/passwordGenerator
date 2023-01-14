@@ -10,19 +10,11 @@ body {
     background-color: #1f2937;
     color: #d5d4d8;
 }
+
 .wrapper {
-    min-width: fit-content;
+    min-width:auto;
     max-width: 80vw;
     margin: auto;
-}
-
-button { 
-    background-color: #4ADF86;
-    color: #ffffff;
-    border-radius: .3em;
-    border: none;
-    padding: .5em;
-    font-size: 1rem;
 }
 
 hr {
@@ -30,9 +22,30 @@ hr {
     color:#414954;
     border-style: solid;
     border-width: 1px;
+    margin-top: .5em;
+    margin-bottom: 1.5em;
+} 
+
+#generate-passwords { 
+    background-color: #50b879;
+    color: #ffffff;
+    border-radius: .3em;
+    border: none;
+    padding: .5em;
+    font-size: 1rem;
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
+
+
 #header-line-two {
     color: #4ADF86;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 2em;
 }
 
 .password-field {
@@ -42,8 +55,5 @@ hr {
     border-radius: .25em;
     text-align: center;
     padding: .25em;
-    min-width: 9em;
-    width: fit-content;
-    
-
+    flex-grow: 1;
 }
