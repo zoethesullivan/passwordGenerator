@@ -1,48 +1,57 @@
-
 # passwordGenerator
 
 [![made-with-javascript](https://img.shields.io/badge/Made%20with-JavaScript-1f425f.svg)](https://www.javascript.com) [![Maintenance](https://img.shields.io/badge/Maintained%3F-no-red.svg)](https://bitbucket.org/lbesson/ansi-colors) 
 
-> Scrimba solo project for JavaScript course.
+> *Webapp created as part of the JavaScript class, in association [Scrimba](https://scrimba.com/learn/learnjavascript)
 
-The [Application](z.netlify.app/) deployment link. Additional detail as needed. Eum exercitationem sint et voluptas soluta non doloribus deleniti et sint dolores ab omnis accusantium. 
+## Project objectives
 
-## Install
+- Build project from scratch using loops and arrays
+- Generate two unique passwords when user clicks "Generate Passwords" button 
+- Password > 15ch
 
-Run:
+## What I learned
 
-```sh
-git clone https://github.com/zoethesullivan/passwordgenerator
-```
+This was a great project to build from scratch. Creating a loop with randomized input from an array was a great stretch goal for me. 
+
+I started with CSS as it's the easier language for me. Not having my Javascript properly built out before my CSS created duplicate work for me.  Below is how I would structure a project like this in the future.
+
+### In the future I would organize my project like
+
+1. Build basic structure in HTML
+2. Javascript
+	[ ] Define password characters in `const characters`
+	[ ] Connect JavaScript variables to HTML elements
+	[ ] Listen for button click
+	[ ] Build out the following for **function `generatePassword`**
+		[ ] Create for loop
+		[ ] Randomize characters within loop
+		[ ] Return password
+	[ ] Create unique second password
+3. CSS
+	1. Add root variables
+		[ ] ::colors
+		[ ] ::font-family
+	1. Match CSS Styling to provided demo
+4. Activate GH Pages
+5. Review project and update readme.md
+6. Add project to portfolio
+
 
 ## Technologies Used
 
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-
-### Languages / Practiced Concepts
-
-- HTML/CSS
 - JavaScript
+- CSS/HTML
+- VS Code
+- GH Pages
 
-</br>
 
 ## To-do
 
-- Center application in vieport
+- Center application in viewport
 - Create buttons and styling for generated passwords
 - Change license to GNU
-- Add JS functionality
-  - onclick added to generate password btn
-  - for loop included
-
-</br>
 
 ## License
 
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
-
-*Application created as part of the JavaScript class in association with [Scrimba](https://scrimba.com/)
-
-## Things I've learned
-
-- start the js first
