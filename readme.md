@@ -20,19 +20,19 @@ I started with CSS as it's the easier language for me. Not having my Javascript 
 
 1. Build basic structure in HTML
 2. Javascript
-	[ ] Define password characters in `const characters`
-	[ ] Connect JavaScript variables to HTML elements
-	[ ] Listen for button click
-	[ ] Build out the following for **function `generatePassword`**
-		[ ] Create for loop
-		[ ] Randomize characters within loop
-		[ ] Return password
-	[ ] Create unique second password
+	1. Define password characters in `const characters`
+	2. Connect JavaScript variables to HTML elements
+	3. Listen for button click
+	4. Build out the following for **function `generatePassword`**
+		1. Create for loop
+		2. Randomize characters within loop
+		3. Return password
+	5. Create unique second password
 3. CSS
 	1. Add root variables
-		[ ] ::colors
-		[ ] ::font-family
-	1. Match CSS Styling to provided demo
+		1.  ::colors
+		2. ::font-family
+	2. Match CSS Styling to provided demo
 4. Activate GH Pages
 5. Review project and update readme.md
 6. Add project to portfolio
