@@ -1,22 +1,32 @@
-# passwordGenerator
+# passwordGenerator V1.1
 
-[![made-with-javascript](https://img.shields.io/badge/Made%20with-JavaScript-1f425f.svg)](https://www.javascript.com) [![Maintenance](https://img.shields.io/badge/Maintained%3F-no-red.svg)](https://bitbucket.org/lbesson/ansi-colors) 
+[![made-with-javascript](https://img.shields.io/badge/Made%20with-JavaScript-1f425f.svg)](https://www.javascript.com) [![Maintenance](https://img.shields.io/badge/Maintained%3F-no-red.svg)](https://bitbucket.org/lbesson/ansi-colors)
 
-> *Webapp created as part of the JavaScript class, in association [Scrimba](https://scrimba.com/learn/learnjavascript)
+## Description
 
-## Project objectives
+This is a learning repository where I can test and use new technologies before moiving onto a new project.
 
-- Build project from scratch using loops and arrays
-- Generate two unique passwords when user clicks "Generate Passwords" button 
-- Password > 15ch
+### For V2
+
+- [ ] Install tailwindCSS
+  - [ ] Add tailwind elements to project
+  - [ ] relaunch
+
+## To-do
+
+- Center application in viewport
+- Create buttons and styling for generated passwords
+- Change license to GNU
 
 ## What I learned
 
-This was a great project to build from scratch. Creating a loop with randomized input from an array was a great stretch goal for me. 
+TBD
 
-I started with CSS as it's the easier language for me. Not having my Javascript properly built out before my CSS created duplicate work for me.  Below is how I would structure a project like this in the future.
+### V2 What I would do in the futute
 
-### In the future I would organize my project like
+TBD
+
+### V1 What I would do in the future
 
 1. Build basic structure in HTML
 2. Javascript
@@ -37,20 +47,13 @@ I started with CSS as it's the easier language for me. Not having my Javascript 
 5. Review project and update readme.md
 6. Add project to portfolio
 
-
 ## Technologies Used
 
+- TailwindCSS
 - JavaScript
 - CSS/HTML
 - VS Code
 - GH Pages
-
-
-## To-do
-
-- Center application in viewport
-- Create buttons and styling for generated passwords
-- Change license to GNU
 
 ## License
 
