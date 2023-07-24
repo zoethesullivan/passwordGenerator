@@ -534,14 +534,6 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-  max-width: 100%;
-  font-family: 'inter', 'Karla', Tahoma, Geneva, Verdana, sans-serif;
-}
-
 body {
   background-color: #1f2937;
   color: #d5d4d8;

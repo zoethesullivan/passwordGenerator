@@ -2,13 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-*,
-*::before,
-*::after {
-    box-sizing: border-box;
-    max-width: 100%;
-    font-family: 'inter', 'Karla', Tahoma, Geneva, Verdana, sans-serif;
-}
 
 body {
     background-color: #1f2937;
@@ -36,7 +29,6 @@ hr {
     border-radius: .3em;
     border: none;
     padding: .5em;
-    font-size: 1rem;
     margin-top: 1em;
     margin-bottom: 1em;
 }
