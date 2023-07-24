@@ -5,7 +5,6 @@
 
 body {
     background-color: #1f2937;
-    color: #d5d4d8;
 }
 
 .wrapper {
@@ -15,8 +14,6 @@ body {
 }
 
 hr {
-    background-color: #57625c;
-    color:#414954;
     border-style: solid;
     border-width: 1px;
     margin-top: .5em;
@@ -24,8 +21,6 @@ hr {
 } 
 
 #generate-passwords { 
-    background-color: #50b879;
-    color: #ffffff;
     border-radius: .3em;
     border: none;
     padding: .5em;
@@ -34,9 +29,7 @@ hr {
 }
 
 
-#header-line-two {
-    color: #4ADF86;
-}
+
 
 .flex {
     display: flex;

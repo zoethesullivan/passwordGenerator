@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-< lang="en">
   <head>
     <meta charset="UTF=8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,61 +6,59 @@
     <link href="styles.css" rel='stylesheet' type='text/css'>
   </head>
   
-  <body class="text-base">
+  <body class="text-base text-slate-300 ">
+    <div><!-- content wrapper -->
 
-  <div><!-- content wrapper -->
-    <div>
-      <nav>
+      <div>
+        <nav>
+          <div>
+            <h1 class="text-xl text-green-500">
+              <a href="/">Password Generator</a>
+            </h1>
+          </div>
+          <ul>
+            <li>
+              <a href="#">
+                <span>Home</span>
+              </a>
+            </li>
+              <a href="#">
+                <span>about</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span>contact</span>
+              </a>
+          </li>
+          </ul>
+        </nav>
+      </div><!-- END NAV -->
+
+      <main>
+        <h2>Generate two unique passwords with one click</h2>
+        <div><!-- cards go here-->
+        </div>
         <div>
-          <h1 class="text-xl">
-            <a href="/">Password Generator</a>
-          </h1>
+          <div><span>child of div</span></div>
         </div>
-        <ul>
-          <li>
-            <a href="#">
-              <span>Home</span>
-            </a>
-          </li>
-            <a href="#">
-              <span>about</span>
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <span>contact</span>
-            </a>
-        </li>
-        </ul>
-      </nav>
-    </div><!-- END NAV -->
-    <main>
-      <h2>Generate two unique passwords with one click</h2>
-
-<div>
-  <!-- cards go here-->
-</div>
-
-<div>
-  <div><span>child of div</span></div>
-</div>
-
-      <div class="wrapper"> 
-        <header>
-          <h1 id="header-line-one">Generate a
-          <br/> <strong id="header-line-two">Random Password</strong></h1>
-          <p>Never use an insecure password ever again</p>
-        </header>
-        <button id="generate-passwords">Generate passwords</button>
-        <hr>
-        <div class="flex">
-          <div id="password-one" class="password-field"> - </div>
-          <div id="password-two" class="password-field"> - </div>
-        </div>
-      </div>   
-    </main>
-  </div>
-</div>
+        <div class="wrapper"> 
+          <header>
+            <h1 id="header-line-one">Generate a
+              <br/>
+              <strong id="header-line-two" class="text-green-400 ">Random Password</strong>
+            </h1>
+            <p>Never use an insecure password ever again</p>
+          </header>
+          <button id="generate-passwords" class="bg-green-500 text-zinc-50">Generate passwords</button>
+          <hr class=" text-zinc-50 ">
+          <div class="flex" class="text-green-500">
+            <div id="password-one" class="password-field"> - </div>
+            <div id="password-two" class="password-field"> - </div>
+          </div>
+        </div>   
+      </main>
+    </div>
 
 <script src="assets/js/scripts.js"></script>
 </body>
