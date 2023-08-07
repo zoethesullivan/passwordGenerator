@@ -20,7 +20,7 @@ This is a learning repository where I can test and use new technologies before m
 
 ## What I learned
 
-TBD
+Tailwind is a great tool. Most of the colors I used in my passwordGenerator project were able to be ported over with no issue. The one color I was unable to replicate did not create any problems as I had thought it would. Tailwind allows you to add in arbritrary background colors with '<bg-[#1f2937]'
 
 ### V2 What I would do in the futute
 
