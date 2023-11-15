@@ -1,32 +1,14 @@
 # passwordGenerator V1.1
 
-[![made-with-javascript](https://img.shields.io/badge/Made%20with-JavaScript-1f425f.svg)](https://www.javascript.com) [![Maintenance](https://img.shields.io/badge/Maintained%3F-no-red.svg)](https://bitbucket.org/lbesson/ansi-colors)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-no-red.svg)](https://bitbucket.org/lbesson/ansi-colors)
 
 ## Description
+Simple vanilla JS and HTML to generate two unique passwords from an array.
 
-This is a learning repository where I can test and use new technologies before moiving onto a new project.
+Repository no longer maintained. 
 
-### For V2
 
-- [ ] Install tailwindCSS
-  - [ ] Add tailwind elements to project
-  - [ ] relaunch
-
-## To-do
-
-- Center application in viewport
-- Create buttons and styling for generated passwords
-- Change license to GNU
-
-## What I learned
-
-TBD
-
-### V2 What I would do in the futute
-
-TBD
-
-### V1 What I would do in the future
+### What I would do in the future
 
 1. Build basic structure in HTML
 2. Javascript
