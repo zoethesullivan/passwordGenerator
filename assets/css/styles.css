@@ -18,6 +18,7 @@ h1 {
 .wrapper {
     min-width:auto;
     max-width: fit-content;
+    padding: 1em;
     margin: auto;
     filter: drop-shadow(14px -5px 16px #000000);
     border: 4px outset #ffffff;
