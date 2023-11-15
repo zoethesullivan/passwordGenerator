@@ -19,6 +19,8 @@ h1 {
     min-width:auto;
     max-width: fit-content;
     margin: auto;
+    filter: drop-shadow(14px -5px 16px #000000);
+    border: 4px outset #ffffff;
 }
 
 hr {
