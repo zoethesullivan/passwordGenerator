@@ -14,6 +14,11 @@ body {
 h1 {
     color: #d5d4d8;
 }
+h2 {
+    color: #4ADF86;
+    margin-bottom: 2em;
+}
+
 main {
     display: flex;
     justify-content: center;
