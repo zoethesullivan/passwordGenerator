@@ -16,10 +16,13 @@ h1 {
 }
 main {
     display: flex;
+    justify-content: center;
+    align-content: center;
 }
+
 .wrapper {
     min-width:auto;
-    padding: 1em;
+    padding: 10px;
     margin: auto;
     filter: drop-shadow(14px -5px 16px #000000);
     border: 4px outset #ffffff;
